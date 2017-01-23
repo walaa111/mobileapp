@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.realdeal.com.moslslat" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>decore </name>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>مسلسلات 2017</name>
     <description>
-  decore
+مسلسلات 2017
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-    real deal
+     مسلسلات 2017
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <gap:plugin name="cordova-plugin-admob" source="npm" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -17,10 +16,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon src="res/andriod/icon.png" />
     <platform name="android">
         <allow-intent href="market:*" />
-
-               <icon src="res/android/icon.png" density="ldpi" />
+        <icon src="res/android/icon.png" density="ldpi" />
         <icon src="res/android/icon.png" density="mdpi" />
         <icon src="res/android/icon.png" density="hdpi" />
         <icon src="res/android/icon.png" density="xhdpi" />
@@ -30,8 +29,5 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-
-
-        
     </platform>
 </widget>
